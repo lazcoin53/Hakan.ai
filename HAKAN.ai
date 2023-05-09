@@ -1,0 +1,61 @@
+<html>
+<head>
+  <title>Linktree</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .profile-name {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .profile-description {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .link {
+      display: block;
+      text-decoration: none;
+      color: white;
+      background-color: #1da1f2;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile-name">Hakan.ai</div>
+    <div class="profile-description">AI educator & Foreign Trade</div>
+    <a href="#" class="link">AI Course</a>
+    <a href="#" class="link">Foreign Trade Course</a>
+    <a href="#" class="link">Book Reviews</a>
+    <a href="#" class="link">Music Recommendations</a>
+    <a href="#" class="link">Travel Impressions</a>
+  </div>
+</body>
+</html>
